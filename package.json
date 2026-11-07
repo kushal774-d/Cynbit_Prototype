@@ -1,0 +1,16 @@
+{
+  "name": "cynbit-leads",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lead capture and management system for Cynbit's website (React + Node/Express + MongoDB)",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm install --prefix server && npm install --prefix client --include=dev && npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "create-admin": "npm run create-admin --prefix server"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
